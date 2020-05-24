@@ -585,7 +585,7 @@ Transform:
   m_GameObject: {fileID: 344632954}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 25.6, y: 12.44, z: 31.3}
-  m_LocalScale: {x: 7.0682936, y: 5.689985, z: 2.125}
+  m_LocalScale: {x: 7.422415, y: 5.689985, z: 2.125}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -1242,7 +1242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   luz: {fileID: 1353663403}
-  cam: {fileID: 741195131}
+  camaraJuego: {fileID: 741195131}
   cajaObject: {fileID: 490545492}
   pelotaObject: {fileID: 615632745}
 --- !u!136 &651664197
@@ -2377,10 +2377,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 087db9958f4077c4aa13ed35798107e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeIntensity: 1
-  intensitySpeed: 7
-  maxIntensity: 10
-  repeatIntensity: 1
+  cambioIntensidad: 1
+  velocidadOscilacion: 4
+  intensidad: 10
+  repetir: 1
   myLight: {fileID: 1353663404}
 --- !u!1 &1394226330
 GameObject:
